@@ -7,4 +7,5 @@ for i in range(a, b+1):
         start = s(i)
         break
 
-print([i for i in range(a, b+1) if s(i) == int(s(i)) and len(str(i)) == 4 and not [j for j in list(str(i)) if j%2==1]] or "no elements found")
+list = [i for i in range(a, b+1) if s(i) == int(s(i)) and len(str(i)) == 4]
+if 

@@ -6,6 +6,11 @@ for i in range(a, b+1):
     if s(i) == int(s(i)):
         start = s(i)
         break
-
 list = [i for i in range(a, b+1) if s(i) == int(s(i)) and len(str(i)) == 4]
-if 
+final = []
+for num in list:
+    count = 0
+    for d in str(num):
+        if int(d)%2!=0 : count = count + 1
+    if count == 0 : final.append(num);
+print(final)

@@ -1,6 +1,7 @@
-dict = {'apple': 2, 'orange': 3, 'mango': 8, 'strawberry': 5, 'pineapple': 4, 'watermelon': 7}
-l = list(dict.items())
-l.sort()
-print(l)
-l.sort(reverse=True)
-print(l)
+fruits = {"apple":2, "orange": 14, "pineapple": 31, "watermelon": 61, "grapes": 10}
+asc = list(fruits.items())
+asc.sort()
+desc = list(fruits.items())
+desc.sort(reverse=True)
+print(asc)
+print(desc)

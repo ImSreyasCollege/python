@@ -15,7 +15,7 @@ class rectangle:
             return "area of rectangle is greater"
 
 l1 = int(input("enter the length of first rectangle : "))
-b1 = int(input("enter the breadth of second rectangle : "))
+b1 = int(input("enter the breadth of first rectangle : "))
 
 l2 = int(input("enter the length of second rectangle : "))
 b2 = int(input("enter the breadth of second rectangle : "))

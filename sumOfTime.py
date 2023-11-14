@@ -26,5 +26,5 @@ h2 = int(input("Enter the hour in time2:"))
 m2 = int(input("Enter the minute in time2:"))
 s2 = int(input("Enter the second in time2:"))
 obj2 = Time(h2, m2, s2)
-print("The sum of both time are:")
+print("The sum of both time are : ")
 obj1 + obj2

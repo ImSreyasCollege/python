@@ -9,7 +9,7 @@ with open('b.csv', 'w') as csvfile:
     write = csv.DictWriter(csvfile, fieldnames=field_name)
     write.writeheader()
     write.writerows(car)
-with open('b.csv', newline='') as csvfile:
-        d = csv.reader(csvfile, delimiter='|')
+with open('b.csv') as file:
+        d = csv.reader(file)
         for r in d:
             print(','.join(r))

@@ -13,3 +13,4 @@ with open('b.csv') as file:
         d = csv.reader(file)
         for r in d:
             print(','.join(r))
+            

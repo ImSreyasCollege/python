@@ -1,7 +1,6 @@
 import csv
-with open("program41.csv", newline='') as csvfile:
-    d = csv.DictReader(csvfile)
-    print(" ID    STUDENTNAME")
-    print("--------------------")
-    for i in d:
-        print(i['id'],i['first_name'])
+with open("program41.csv", "r") as file:
+    contents = csv.DictReader(file)
+    print("ID STUDENT-NAME\n--------------")
+    for content in contents:
+        print(content["id"], content["first_name"]+content["last_name"])

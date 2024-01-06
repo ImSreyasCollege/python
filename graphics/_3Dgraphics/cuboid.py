@@ -1,4 +1,4 @@
-def area(side):
-    return side**2
-def perimeter(side):
-    return 12*side
+def area(l, b, h):
+    return 2 * (l*b + b*h + l*h)
+def perimeter(l, b, h):
+    return 4 * (l + b + h)

@@ -11,18 +11,20 @@ print("perimeter of circle is : ", perimeter(r), "\n")
 # rectangle 
 l = int(input("enter the length of rectangle : "))
 b = int(input("enter the breadth of rectangle : "))
-print("area of rectangle is : ", areaOfRectangle(l, b))
-print("perimeter of rectangle is : ", perimeterOfRectangle(l, b), "\n")
+print("area of rectangle is = ", areaOfRectangle(l, b))
+print("perimeter of rectangle is = ", perimeterOfRectangle(l, b), "\n")
 
 # cuboid 
-a = int(input("enter the side of cuboid : "))
-print("area of the cuboid is : ", areaOfCuboid(a), "\n")
-print("perimeter of cuboid is : ", perimeterOfCuboid(a), "\n")
+l = int(input("enter the length of cuboid : "))
+b = int(input("enter the breadth of cuboid : "))
+h = int(input("enter the height of cuboid : "))
+print("area of the cuboid is = ", areaOfCuboid(l, b, h))
+print("perimeter of cuboid is = ", perimeterOfCuboid(l, b, h), "\n")
 
 # sphere
 s = int(input("enter the radius of sphere : "))
-print("area of the sphere is : ", areaOfSphere(s), "\n")
-print("perimeter of sphere is : ", perimeterOfSphere(s), "\n")
+print("area of the sphere is = ", areaOfSphere(s))
+print("perimeter of sphere is = ", perimeterOfSphere(s), "\n")
 
 
 

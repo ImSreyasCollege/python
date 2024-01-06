@@ -10,9 +10,9 @@ class rectangle:
         if self.area() == obj.area():
             return "area of rectangles are equal"
         elif self.area() < obj.area():
-            return "area of rectangle is lesser"
+            return "area of rectangle1 is lesser than rectangle2"
         else : 
-            return "area of rectangle is greater"
+            return "area of rectangle1 is greater than rectangle2"
 
 l1 = int(input("enter the length of first rectangle : "))
 b1 = int(input("enter the breadth of first rectangle : "))

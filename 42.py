@@ -5,11 +5,11 @@ car = [{'No': 1,'Company':'Ferrari','Car Model':'GH'},
 {'No': 3,'Company':'Maruti Suzuki','Car Model': 'Swift'},
 {'No': 4,'Company':'Audi', 'Car Model':'RS7'},
 {'No': 5,'Company':'Toyota', 'Car Model':'Fortuner'}]
-with open('b.csv', 'w') as csvfile:
+with open('program42.csv', 'w') as csvfile:
     write = csv.DictWriter(csvfile, fieldnames=field_name)
     write.writeheader()
     write.writerows(car)
-with open('b.csv') as file:
+with open('program42.csv') as file:
         d = csv.reader(file)
         for r in d:
             print(','.join(r))

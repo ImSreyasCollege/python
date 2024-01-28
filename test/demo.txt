@@ -1,0 +1,6 @@
+hello 
+my name is sreyas
+writing python script 
+i'm from india
+nice to see you 
+have a nice day

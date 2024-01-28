@@ -12,5 +12,5 @@ with open('program42.csv', 'w') as csvfile:
 with open('program42.csv') as file:
         d = csv.reader(file)
         for r in d:
-            print(','.join(r))
+            print(', '.join(r))
             

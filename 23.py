@@ -12,3 +12,4 @@
 # print("List : ", final or "no numbers found")
 
 print([i for i in range(int(input("Start : ")), int(input("End : "))+1) if len(str(i))==4 and int(i**0.5)**2==i and all([int(j)%2==0 for j in str(i)])] or "List is empty")
+

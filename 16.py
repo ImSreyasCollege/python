@@ -1,8 +1,10 @@
-fruits = {"apple":2, "orange": 14, "pineapple": 31, "watermelon": 61, "grapes": 10}
-asc = list(fruits.items())
-asc.sort()
-desc = list(fruits.items())
-desc.sort(reverse=True)
-print("Dictionary is : ", fruits, "\n")
-print("Ascending order : ", asc)
-print("Descending order : ", desc)
+fruits = {"apple":2, "orange": 14, "pineapple": 31, "watermelon": 61, "grapes": 100}
+# asc = list(fruits.items())
+# asc.sort()
+# desc = list(fruits.items())
+# desc.sort(reverse=True)
+# print("Dictionary is : ", fruits, "\n")
+# print("Ascending order : ", asc)
+# print("Descending order : ", desc)
+out = dict(sorted(fruits.items(), key=lambda val: val[0], reverse=True))
+print(out)
